@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tabela 4x3 com Gráfico</title>
   <style>
-    :root{--bg:#f6f8fb;--card:#ffffff;--accent:#4caf50;--muted:#6b7280}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background:var(--bg); margin:0; padding:32px; color:#0f172a}
+    :root{--bg:#c8cdd5;--card:#ffffff;--accent:#4caf50;--muted:#6b7280}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background: linear-gradient(180deg, var(--bg), rgb(207, 207, 207));}
     .container{max-width:900px;margin:0 auto}
     h1{font-size:22px;margin:0 0 18px}
     .card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06);padding:18px}
@@ -24,6 +24,13 @@
     .legend .dot{width:14px;height:14px;border-radius:3px}
     .logo{
       height: 150px;
+    }
+    .rodape{
+      display: flex;
+      justify-content: center;
+    }
+    .ac{
+      height: 40px;
     }
   </style>
 </head>
@@ -64,5 +71,8 @@
           </tr>
         </tbody>
       </table>
+      <div class="rodape">
+        <img class="ac" src="rodape pt sem fundo.png" alt="rodapé">
+      </div>
 </body>
 </html>
